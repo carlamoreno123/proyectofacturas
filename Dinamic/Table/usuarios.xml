@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+    <column>
+        <name>idusuario</name>
+        <type>serial</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>nombreyapellidos</name>
+        <type>character varying(40)</type>
+        <null>NO</null>
+    </column>
+      <column>
+        <name>DNI</name>
+        <type>character varying(10)</type>
+        <null>NO</null>
+    </column>
+     <column>
+        <name>edad</name>
+        <type>integer</type>
+        <null>NO</null>
+    </column>
+     <column>
+        <name>genero</name>
+        <type>character varying(8)</type>
+        <null>NO</null>
+    </column>
+     <column>
+        <name>peso</name>
+        <type>integer</type>
+        <null>NO</null>
+    </column>
+     <column>
+        <name>altura</name>
+        <type>integer</type>
+        <null>NO</null>
+    </column>
+    <constraint>
+        <name>usuarios_pkey</name>
+        <type>PRIMARY KEY (idusuarios)</type>
+    </constraint>
+</table>
