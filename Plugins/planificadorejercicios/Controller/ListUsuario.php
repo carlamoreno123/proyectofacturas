@@ -16,14 +16,27 @@ class ListUsuario extends ListController
 
     protected function createViews()
     {
-        // creamos cada pestaña en una función separada, por comodidad
+        
         $this->addView('ListUsuario', 'usuario');
+        $this->addOrderBy('ListUsuario',['edad'], 'edad');
+    
     }
 
+    //poner por edades
+
+    protected function createViewsProject(string $viewName = 'ListUsuario'): void
+    {
+        $this->addView($viewName, 'usuarios')
+            ->addOrderBy(['edad'], 'edad')
+            ->addSearchFields(['edad']);
+    }
+    
+  
     protected function loadData($viewName, $view) {
         switch ($viewName) {
             case 'ListUsuario':
                 
+               
                 $view->loadData();
                 break;
             }
