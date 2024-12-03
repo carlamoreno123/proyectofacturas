@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <view>
     <columns>
-        <column name="nombreyepellidos" order ="100">
-            <widget type="text" fieldname ="nombre y apellidos"/>
+        <column name="nombre y apellidos" order ="100">
+            <widget type="text" fieldname ="nombreyapellidos"/>
         </column>
         <column name="DNI" order ="110" display="center">
             <widget type="text" fieldname ="DNI"/>
         </column>
         <column name="edad" order ="120" display="center">
-            <widget type="date" fieldname ="edad"/>
+            <widget type="number" fieldname ="edad"/>
         </column>
         <column name="genero" order ="130" display="center">
             <widget type="text" fieldname ="genero"/>

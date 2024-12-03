@@ -37,6 +37,6 @@
     </column>
     <constraint>
         <name>usuarios_pkey</name>
-        <type>PRIMARY KEY (idusuarios)</type>
+        <type>PRIMARY KEY (idusuario)</type>
     </constraint>
 </table>

@@ -9,7 +9,7 @@ class Usuario extends ModelClass
     use ModelTrait;
 
     public $idusuario;
-    public $nombreyappelidos;
+    public $nombreyapellidos;
     public $DNI;
     public $edad;
     public $genero;
