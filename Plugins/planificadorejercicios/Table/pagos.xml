@@ -8,12 +8,12 @@
     <column>
         <name>idusuario</name>
         <type>integer</type>
-        <null>NO</null>
+      
     </column>
       <column>
         <name>nombreyapellidos</name>
         <type>character varying(10)</type>
-        <null>NO</null>
+     
     </column>
      <column>
         <name>suscripcion</name>

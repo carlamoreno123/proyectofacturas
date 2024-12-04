@@ -154,6 +154,11 @@
         "customId": "",
         "position": 0
     },
+    "\/EditDieta": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditDieta",
+        "customId": "",
+        "position": 0
+    },
     "\/EditDivisa": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditDivisa",
         "customId": "",
@@ -401,6 +406,11 @@
     },
     "\/ListCuenta": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListCuenta",
+        "customId": "",
+        "position": 0
+    },
+    "\/ListDieta": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListDieta",
         "customId": "",
         "position": 0
     },

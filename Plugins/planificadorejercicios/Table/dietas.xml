@@ -1,41 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <table>
     <column>
-        <name>idpago</name>
+        <name>iddieta</name>
         <type>serial</type>
         <null>NO</null>
     </column>
     <column>
         <name>idusuario</name>
         <type>integer</type>
-      
+     
     </column>
       <column>
         <name>nombreyapellidos</name>
         <type>character varying(10)</type>
-     
+       
     </column>
      <column>
-        <name>suscripcion</name>
-        <type>character varying(10)</type>
+        <name>dieta</name>
+        <type>character varying(100)</type>
         <null>NO</null>
     </column>
       <column>
-        <name>coste</name>
-        <type>double precision</type>
-        <null>NO</null>
-    </column>
-     <column>
-        <name>pagado</name>
-        <type>character varying(10)</type>
+        <name>dias</name>
+        <type>integer</type>
         <null>NO</null>
     </column>
     <constraint>
-        <name>pagos_pkey</name>
-        <type>PRIMARY KEY (idpago)</type>
+        <name>dietas_pkey</name>
+        <type>PRIMARY KEY (iddieta)</type>
     </constraint>
       <constraint>
-        <name>ca_pagos_usuarios</name>
+        <name>ca_dietas_usuarios</name>
         <type>FOREIGN KEY (idusuario) REFERENCES usuarios (idusuario) ON DELETE CASCADE</type>
     </constraint>
 </table>

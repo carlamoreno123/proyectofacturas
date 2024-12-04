@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+    <columns>
+      <column name="nombre y apellidos" order="110">
+    <widget type="autocomplete" fieldname="nombreyapellidos" onClick="EditUsuario">
+    <values source="usuarios" fieldcode="nombreyapellidos" fieldtitle="nombreyapellidos"/>
+    </widget>
+    </column>
+     
+        <column name="dieta" order="110" display="center">
+            <widget type="text" fieldname="dieta"/>
+        </column>
+        <column name="dias a hacer" order="120" display="center">
+            <widget type="number" fieldname="dias"/>
+        </column>
+    </columns>
+</view>
