@@ -4,8 +4,9 @@
     "work_events",
     "settings",
     "users",
-    "usuarios",
+    "pagos",
     "pages_options",
     "pages_filters",
-    "almacenes"
+    "divisas",
+    "logs"
 ]

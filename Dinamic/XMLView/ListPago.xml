@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+    <columns>
+    <column name="nombreyapellidos" order="110">
+    <widget type="autocomplete" fieldname="idusuario" onClick="EditUsuario">
+    <values source="usuarios" fieldcode="idusuario" fieldtitle="nombreyapellidos"/>
+    </widget>
+    </column>
+     <column name="suscripcion" order="130" numcolumns="3">
+            <widget type="select" fieldname="suscripcion" required="true">
+                <values title="Base">Base</values>
+                <values title="Premium">Premium</values>
+            </widget>
+        </column>
+    <column name="coste" order="130" display="center">
+    <widget type="money" fieldname="coste"/>
+    </column>
+    <column name="pagado" order="140" display="center">
+    <widget type="checkbox" fieldname="pagado"/>
+    </column>
+    </columns>
+     <rows>
+        <row type="status">
+            <option color="success" fieldname="pagado" title="si">notnull:</option>
+            <option color="danger" fieldname="pagado" title="no">null:</option>
+        </row>
+    </rows>
+    </view>

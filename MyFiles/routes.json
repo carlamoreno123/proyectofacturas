@@ -234,6 +234,11 @@
         "customId": "",
         "position": 0
     },
+    "\/EditPago": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditPago",
+        "customId": "",
+        "position": 0
+    },
     "\/EditPais": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditPais",
         "customId": "",
@@ -441,6 +446,11 @@
     },
     "\/ListLogMessage": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListLogMessage",
+        "customId": "",
+        "position": 0
+    },
+    "\/ListPago": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListPago",
         "customId": "",
         "position": 0
     },
