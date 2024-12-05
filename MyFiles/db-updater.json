@@ -7,5 +7,18 @@
     "planes",
     "pages_options",
     "pages_filters",
-    "objetivos"
+    "objetivos",
+    "logs",
+    "formatos_documentos",
+    "usuarios",
+    "pagos",
+    "divisas",
+    "almacenes",
+    "api_keys",
+    "idsfiscales",
+    "secuencias_documentos",
+    "ejercicios",
+    "series",
+    "estados_documentos",
+    "attached_files"
 ]
