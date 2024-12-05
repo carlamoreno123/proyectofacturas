@@ -21,6 +21,8 @@ class ListPlan extends ListController
     protected function createViews()
     {
         $this->createPlan();
+        $this->createObjetivo();
+
       
     }
 
@@ -33,6 +35,14 @@ class ListPlan extends ListController
        
       
     }
+    protected function createObjetivo($viewName = 'ListObjetivo')
+    {
+        $this->addView($viewName, 'Objetivo', 'Objetivos', 'fa-solid fa-medal');
+        $this->addSearchFields($viewName, ['nombreyapellidos', 'dia']);
+        $this->addOrderBy($viewName, ['dia'], 'dia', 1);
+       
+      
+    }
 
   
 
@@ -40,7 +50,7 @@ class ListPlan extends ListController
     {
         switch ($viewName) {
             case 'ListPlan':
-           
+            case 'ListObjetivo':
                 $view->loadData();
                 break;
         }

@@ -3,11 +3,10 @@ namespace FacturaScripts\Plugins\planificadorejercicios\Controller;
 
 use FacturaScripts\Core\Lib\ExtendedController\EditController;
 
-class EditPlan extends EditController
+class EditObjetivo extends EditController
 {
     public function getModelClassName(): string
     {
-        return 'Plan';
-        
+        return 'Objetivo';
     }
 }

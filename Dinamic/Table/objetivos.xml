@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+    <column>
+        <name>idobjetivo</name>
+        <type>serial</type>
+        <null>NO</null>
+    </column>
+    <column>
+        <name>idusuario</name>
+        <type>integer</type>
+      
+    </column>
+      <column>
+        <name>nombreyapellidos</name>
+        <type>character varying(10)</type>
+     
+    </column>
+     <column>
+        <name>objetivo</name>
+        <type>character varying(10)</type>
+        <null>NO</null>
+    </column>
+      <column>
+        <name>dia</name>
+        <type>date</type>
+        <null>NO</null>
+    </column>
+     <column>
+        <name>hecho</name>
+        <type>character varying(10)</type>
+        <null>NO</null>
+    </column>
+    <constraint>
+        <name>objetivos_pkey</name>
+        <type>PRIMARY KEY (idobjetivo)</type>
+    </constraint>
+      <constraint>
+        <name>ca_objetivos_usuarios</name>
+        <type>FOREIGN KEY (idusuario) REFERENCES usuarios (idusuario) ON DELETE CASCADE</type>
+    </constraint>
+</table>

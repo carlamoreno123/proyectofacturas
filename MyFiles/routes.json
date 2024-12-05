@@ -234,6 +234,11 @@
         "customId": "",
         "position": 0
     },
+    "\/EditObjetivo": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditObjetivo",
+        "customId": "",
+        "position": 0
+    },
     "\/EditPageOption": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditPageOption",
         "customId": "",
