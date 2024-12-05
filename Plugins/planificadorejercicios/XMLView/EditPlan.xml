@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<view>
+    <columns>
+      <column name="nombreyapellidos" order="110">
+    <widget type="autocomplete" fieldname="idusuario" onClick="EditUsuario">
+    <values source="usuarios" fieldcode="idusuario" fieldtitle="nombreyapellidos"/>
+    </widget>
+    </column>
+        <column name="parte del cuerpo" order="130" display="center">
+            <widget type="text" fieldname="partedelcuerpo" />
+        </column>
+         <column name="dia" order="130" display="center">
+            <widget type="text" fieldname="dia" />
+        </column>
+        <column name="dia" order="130" numcolumns='3'>
+            <widget type="select" fieldname="dia" required='true'>
+                <values title='Lunes'>Lunes</values>
+                <values title='Martes'>Martes</values>
+                <values title='Miercoles'>Miercoles</values>
+                <values title='Jueves'>Jueves</values>
+                <values title='Viernes'>Viernes</values>
+                <values title='Sabado'>Sabado</values>
+                <values title='Domingo'>Domingo</values>
+
+            </widget>
+        </column>
+
+    </columns>
+
+</view>

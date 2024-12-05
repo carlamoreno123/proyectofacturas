@@ -259,6 +259,11 @@
         "customId": "",
         "position": 0
     },
+    "\/EditPlan": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditPlan",
+        "customId": "",
+        "position": 0
+    },
     "\/EditPresupuestoCliente": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\EditPresupuestoCliente",
         "customId": "",
@@ -476,6 +481,11 @@
     },
     "\/ListPedidoProveedor": {
         "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListPedidoProveedor",
+        "customId": "",
+        "position": 0
+    },
+    "\/ListPlan": {
+        "controller": "\\FacturaScripts\\Dinamic\\Controller\\ListPlan",
         "customId": "",
         "position": 0
     },

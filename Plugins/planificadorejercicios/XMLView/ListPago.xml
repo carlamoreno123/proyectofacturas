@@ -1,14 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <view>
     <columns>
-    <column name="idusuario" order="110">
-    <widget type="autocomplete" fieldname="idusuario" onClick="EditUsuario">
-    <values source="usuarios" fieldcode="idusuario" fieldtitle="idusuario"/>
-    </widget>
-    </column>
+    
      <column name="nombre y apellidos" order="110">
-    <widget type="autocomplete" fieldname="nombreyapellidos" onClick="EditUsuario">
-    <values source="usuarios" fieldcode="nombreyapellidos" fieldtitle="nombreyapellidos"/>
+    <widget type="autocomplete" fieldname="idusuario" onClick="EditUsuario">
+    <values source="usuarios" fieldcode="idusuario" fieldtitle="nombreyapellidos"/>
     </widget>
     </column>
      <column name="suscripcion" order="130" numcolumns='3'>
@@ -26,8 +22,8 @@
     </columns>
      <rows>
         <row type='status'>
-            <option color='success' fieldname='pagado' title="si">notnull:</option>
-            <option color='danger' fieldname='pagado' title="no">null:</option>
+            <option color='success' fieldname='pagado' title="si">1</option>
+            <option color='danger' fieldname='pagado' title="no">0</option>
         </row>
     </rows>
     </view>
